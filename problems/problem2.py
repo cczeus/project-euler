@@ -8,4 +8,5 @@ def fibonacci(num1, num2):
     else:
         return 0
 
-print fibonacci(1, 1)
+def main():
+    return fibonacci(1, 1)

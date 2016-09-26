@@ -1,8 +1,6 @@
-"""DOESNT WORK, WILL INFINITELY LOOP, BUT WAS ABLE TO GET ANSWER FROM THIS"""
+#DOESNT WORK, WILL INFINITELY LOOP, BUT WAS ABLE TO GET ANSWER FROM THIS
 
 import math
-
-zeroTo = 20
 
 def factorial(n):
     if n == 1:
@@ -15,7 +13,6 @@ def isStillDivisible(num):
             return False
     return True
 
-num = factorial(zeroTo)
 
 def reduce():
     global num
@@ -26,7 +23,10 @@ def reduce():
             hasReduced = True
     return hasReduced
 
-while reduce():
-    pass    
-print num
-
+def main():
+    zeroTo = 20
+    return 0
+    num = factorial(zeroTo)
+    while reduce():
+        pass    
+    return num
