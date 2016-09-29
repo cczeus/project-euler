@@ -24,7 +24,8 @@ problems = {
     '20': [problem020, 648],
     '21': [problem021, 31626],
     '22': [problem022, 871198282],
-    '23': [problem023, 0]
+    '23': [problem023, 4179871],
+    '24': [problem024, 2783915460]
 }
 
 def testAll():
