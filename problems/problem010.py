@@ -24,15 +24,3 @@ def main():
         i += 1
 
     return sum
-
-
-    """
-    sum = 2
-
-    i = 3
-    while i < 2000000:
-        if lib.isPrime(i):
-            sum += i
-        i += 2
-
-    return sum"""

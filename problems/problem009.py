@@ -1,4 +1,3 @@
-
 def isPythagoreanTriple(num1, num2, num3):
     nums = [num1, num2, num3]
     nums.sort()

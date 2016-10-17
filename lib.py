@@ -5,6 +5,8 @@ def isPrime(num):
         return True
     elif num % 2 == 0:
         return False
+    elif num < 0:
+        return False
 
     for j in range(3, int(math.sqrt(num)) + 1, 2):
         if(num % j == 0):
