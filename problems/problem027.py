@@ -12,7 +12,6 @@ def main():
                 maxCount += 1
 
             if maxCount > max:
-                print str(a) + " " + str(b) + " " + str(maxCount)
                 max = maxCount
                 product = a * b
 
