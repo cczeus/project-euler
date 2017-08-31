@@ -7,7 +7,6 @@ def main():
     prime[0] = False
     prime[1] = False
     prime[2] = True
-
     for i in range(4, max, 2):
         prime[i] = False
 

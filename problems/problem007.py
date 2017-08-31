@@ -1,4 +1,3 @@
-import math
 import lib
 
 def main():

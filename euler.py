@@ -38,7 +38,15 @@ problems = {
     '34': [problem034, 40730],
     '35': [problem035, 55],
     '36': [problem036, 872187],
-    '37': [problem037, 748317]
+    '37': [problem037, 748317],
+    '38': [problem038, 932718654],
+    '39': [problem039, 840],
+    '40': [problem040, 210],
+    '41': [problem041, 7652413],
+    '42': [problem042, 162],
+    '43': [problem043, 16695334890],
+    '44': [problem044, 5482660],
+    '45': [problem045, 1533776805]
 }
 
 def testAll():
@@ -62,7 +70,7 @@ def testAll():
     if len(failures) > 0:
         print ""
 
-    print "=====Summary====="
+    print "===== Summary ====="
     print "Successes: " + str(num - len(failures))
     print "Failures: " + str(len(failures))
     print "Total Time Elapsed: " + str(totalTime) + "ms"

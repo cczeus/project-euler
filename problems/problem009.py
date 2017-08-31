@@ -7,5 +7,6 @@ def main():
     for a in range(1, 999):
         for b in range(1, 1000 - a):
             c = 1000 - a - b
-            if isPythagoreanTriple(a, b, c):
+            #if isPythagoreanTriple(a, b, c):
+            if a ** 2 + b ** 2 == c ** 2:
                 return a * b * c
