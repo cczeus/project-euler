@@ -45,12 +45,9 @@ def main():
                 s = s[1:]
 
     #arr is now a list of potential last 6 digits
-    print arr
 
     count = 0
     for i in arr:
-        print ""
-        print "Last 6 digits: " + str(i)
         digits = [j for j in range(0, 10)]
         for c in i:
             digits.remove(int(c))
@@ -72,8 +69,6 @@ def main():
                         else:
                             n1 = int( str(newdigit[1]) + str(newdigit[0]) + str(d3) + str(d4) + i )
                             n2 = int( str(newdigit[0]) + str(newdigit[1]) + str(d3) + str(d4) + i )
-                        print n1
-                        print n2
                         count += n1
                         count += n2
                 newdigit.append(d4)

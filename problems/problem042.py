@@ -16,7 +16,5 @@ def main():
             score += alphabet.index(char) + 1
         if score in triangle_nums:
             count += 1
-        if score > 210:
-            print score
 
     return count

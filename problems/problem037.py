@@ -27,7 +27,6 @@ def main():
             sR = "".join(sR)
 
         if sR == "" and sL == "":
-            print n
             total += 1
             sum += n
 

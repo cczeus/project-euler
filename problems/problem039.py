@@ -8,13 +8,10 @@ def main():
                 break
             if b > maxB:
                 maxB = b
-                if b == 499:
-                    print str(a) + " " + str(b) + " " + str(c)
             if int(c) == c:
                 count[int(c + a + b)] += 1
     maxLength = 0
     maxNum = 0
-    print maxB
     for i in range(len(count)):
         if count[i] > maxLength:
             maxNum = i

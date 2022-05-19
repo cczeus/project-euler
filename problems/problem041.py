@@ -11,7 +11,6 @@ def main():
             for j in range(2 * i, max, i):
                 primes[j] = False
 
-    print "Primes array created"
     for i in range(max - 1, 0, -1):
         if primes[i] and "".join(sorted(list(str(i)))) == "1234567":
             return i
